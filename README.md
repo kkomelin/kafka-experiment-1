@@ -22,7 +22,7 @@ docker compose up -d
 node src/consumer.mjs
 ```
 
-3. Run the producer as many times as you need:
+3. In a separate terminal session, rn the producer as many times as you need:
 
 ```shell_script
 node src/producer.mjs
