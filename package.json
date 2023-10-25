@@ -1,0 +1,15 @@
+{
+  "name": "kafka-experiment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/consumer.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": "kkomelin/kafka-experiment-1",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
