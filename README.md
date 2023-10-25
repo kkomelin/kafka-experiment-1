@@ -2,6 +2,11 @@
 
 Simple Kafka producer and consumer to test Kafka setup.
 
+## Installation
+
+```shell_script
+npm install
+```
 
 ## Usage
 
