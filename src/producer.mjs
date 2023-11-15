@@ -9,7 +9,9 @@ const kafka = new Kafka({
   brokers: BROKERS,
 });
 
-const producer = kafka.producer();
+const producer = kafka.producer({
+    allowAutoTopicCreation: false
+});
 
 const run = async () => {
   await producer.connect();
